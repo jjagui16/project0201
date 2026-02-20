@@ -9,3 +9,10 @@
       Filename: project02-01.js
  */
 
+function FarenheitToCelsius (degree) {
+      return (degree -32) / 1.8;
+}
+
+function CelsiusToFarenheit (degree) {
+      return (degree + 32) * 1.8;
+}
